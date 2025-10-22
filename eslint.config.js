@@ -68,6 +68,8 @@ export default tseslint.config(
   {
     rules: {
       "@typescript-eslint/no-explicit-any": "off",
+      "semi": ["error", "never"],
+      "quotes": ["error", "single"],
     },
   },
 );
